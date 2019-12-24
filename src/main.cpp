@@ -33,13 +33,13 @@ This example shows how to connect to Cayenne using an LilyGO T-HiGrow and send/r
 
 
 // WiFi network info.
-char ssid[] = "Xiaomi";
-char wifiPassword[] = "12345678";
+char ssid[] = "WIFI SSID";
+char wifiPassword[] = "WIFI PASSWORD";
 
 // Cayenne authentication info. This should be obtained from the Cayenne Dashboard.
-char username[] = "b8bfdf70-22ec-11ea-ba7c-716e7f5ba423";
-char password[] = "ebad11e29c4128c518e8a6fed5b6dc7a61539cf5";
-char clientID[] = "21d87b60-2523-11ea-8221-599f77add412";
+char username[] = "MQTT_USERNAME";
+char password[] = "MQTT_PASSWORD";
+char clientID[] = "CLIENT_ID";
 
 #define TEMPERATURE_VIRTUAL_CHANNEL 1
 #define BAROMETER_VIRTUAL_CHANNEL 2
